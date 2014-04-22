@@ -24,7 +24,7 @@ depending on whether the module contents were retrieved from the cache or not
 
 the `helper.php` will create a file in the module directory called `hits.php`, which is basically an ini file.
 
-It will add the updated time to the file and increment hits by one, it will also increment the value for the key if passed by one
+It will add the updated time to the file and increment hits by one, it will also increment the value for the key (if passed) by one
 
 the contents of the hits file will look a little like:
     ;<?php die("Access Denied");
