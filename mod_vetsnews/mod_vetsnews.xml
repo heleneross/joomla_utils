@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" client="site" method="upgrade">
+    <name>Veterans News</name>
+    <author>Helen</author>
+    <creationDate>April 2014</creationDate>
+    <copyright>Helen</copyright>
+    <license>GNU/GPL</license>
+    <authorEmail>heleneross@gmail.com</authorEmail>
+    <authorUrl>bfgnet.de</authorUrl>
+    <version>1.0</version>
+    <description>Gets Veterans News from gov.uk</description>
+    <files>
+        <filename module="mod_vetsnews">mod_vetsnews.php</filename>
+        <filename>index.html</filename>
+        <folder>tmpl</folder>
+        <folder>resources</folder>
+    </files>
+    <config>
+        <fields name="params">
+          <fieldset name="basic" label="basic">
+              <field name="sheading" label="Heading" type="text" default="" />
+              <field name="cache_time" type="text" default="120" filter="integer" label="cache time" description="cache time - set in minutes"/>
+              <field name="num_items" type="text" default="5" filter="integer" label="Number of news items" description="Number of news items displayed" />
+              <field name="logging" type="radio" label="Enable logging" description="logs hits to mod_vetsnews folder as hits.php" default="0">
+                <option value="1">yes</option>
+                <option value="0">no</option>
+              </field>
+          </fieldset>
+          <field name="cachemode" type="hidden" default="id">
+              <option
+    					   value="id">
+              </option>
+          </field>
+        </fields>
+    </config>
+</extension>
