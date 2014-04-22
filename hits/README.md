@@ -27,11 +27,13 @@ the `helper.php` will create a file in the module directory called `hits.php`, w
 It will add the updated time to the file and increment hits by one, it will also increment the value for the key (if passed) by one
 
 the contents of the hits file will look a little like:
+
     ;<?php die("Access Denied");
     created=Thu, 17 Apr 2014 19:09:23 +0200
     updated=Thu, 17 Apr 2014 19:10:47 +0200
     hits=3
     cached=2
     uncached=1
+    
 
 
