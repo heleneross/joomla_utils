@@ -1,0 +1,6 @@
+#user_survey .survey_button {font-size:1.2em;font-weight:bold;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;border:1px solid #790C02;padding:5px 18px;text-decoration:none;background-color:#BE170A;color:#ffffff;display:inline-block;}
+#user_survey .survey_button:hover {background-color:#CF3F32;}
+#user_survey .survey_button:active {position:relative;top:1px;}
+#user_survey .survey_button:focus {background-color:#fffbb5;color:#1c4171}
+#sidebar2 #user_survey a.survey_button:after{content:none}
+#user_survey {margin:4px 0}
