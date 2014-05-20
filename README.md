@@ -16,3 +16,6 @@ only display this module between custom dates and if user has cookies enabled an
 
 ### mod_modified ###
 admin module for cpanel position to replace Latest News module. Can show either recently created or recently modified articles. Publish it twice and then you can see both sets of information.
+
+### com_jevents.php ###
+Not any use to anybody else! still a bit of a mess but sh404sef sef extension for jevents calendar
